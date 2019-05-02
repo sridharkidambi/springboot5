@@ -1,14 +1,17 @@
 package sk.springframework.spring5webapp.model;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Objects;
+import java.util.Set;
 
 @Entity
 public class books {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     private String firstName;
     private String lastName;
@@ -16,19 +19,19 @@ public class books {
     @ManyToMany
     @JoinTable(name = "author_book",joinColumns = @JoinColumn(name = "book_id"),
     inverseJoinColumns = @JoinColumn(name = "author_id"))
-    private List<author> _authors;
+    private Set<author> _authors=new HashSet<author>();
 
-    public books(String firstName, String lastName, List<author> _authors) {
+    public books(String firstName, String lastName, Set<author> _authors) {
         this.firstName = firstName;
         this.lastName = lastName;
         this._authors = _authors;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -48,11 +51,34 @@ public class books {
         this.lastName = lastName;
     }
 
-    public List<author> get_authors() {
+    public Set<author> get_authors() {
         return _authors;
     }
 
-    public void set_authors(List<author> _authors) {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        books books = (books) o;
+        return id == books.id;
+    }
+
+    @Override
+    public String toString() {
+        return "books{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", _authors=" + _authors +
+                '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
+    public void set_authors(Set<author> _authors) {
         this._authors = _authors;
     }
 }
