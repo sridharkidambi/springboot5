@@ -27,6 +27,12 @@ public class books {
         this._authors = _authors;
     }
 
+    public books(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+
     public Long getId() {
         return id;
     }

@@ -7,8 +7,11 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 import sk.springframework.spring5webapp.model.author;
+import sk.springframework.spring5webapp.model.books;
 import sk.springframework.spring5webapp.repositories.AuthorInterface;
 import sk.springframework.spring5webapp.repositories.BooksInterface;
+
+import java.util.HashSet;
 
 @Component
 public class bootstrapme implements ApplicationListener<ContextRefreshedEvent> {
@@ -26,8 +29,12 @@ this.initme();
 
     private void initme(){
 
-        author _author=new author("Sridhar","kidambi");
+        author _sk=new author("Sridhar","kidambi");
+        books _book = new books("jave","Srping");
+        _sk.get_book().add(_book);
 
-        authorInterface.save(_author);
+
+        booksInterface.save(_book);
+        authorInterface.save(_sk);
     }
 }
