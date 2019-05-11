@@ -56,6 +56,7 @@ public class author {
 
     @ManyToMany(mappedBy = "_authors")
     private Set<books> _book=new HashSet<books>();
+
     public Long getId() {
         return id;
     }
