@@ -13,3 +13,6 @@ no SQL required.
 
 GRAILS ---groovy wrapper over spring framework
 
+ApplicationListener<ContextRefreshedEvent> :used to initialize the component
+https://www.baeldung.com/spring-context-events
+

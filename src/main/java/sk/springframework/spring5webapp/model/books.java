@@ -32,7 +32,9 @@ public class books {
         this.lastName = lastName;
     }
 
+    public books(){
 
+    }
     public Long getId() {
         return id;
     }
