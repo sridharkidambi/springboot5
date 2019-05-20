@@ -30,8 +30,11 @@ public class booksController {
         greetingService.orintme();
         child2GreetingService.orintme();
         customGreetingService.orintme();
-        model.addAttribute("books",booksInterface.findAll());
-        return "books";
+        if(model!=null) {
+            model.addAttribute("books", booksInterface.findAll());
+            return "books";
+        }
+        return null;
 
     }
 
