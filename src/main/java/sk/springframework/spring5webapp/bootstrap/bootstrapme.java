@@ -25,7 +25,7 @@ public class bootstrapme {
 
     @EventListener
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-this.initme();
+        this.initme();
     }
 
     private void initme(){
