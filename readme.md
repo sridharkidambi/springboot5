@@ -32,7 +32,7 @@ Spring frameworks IOC container.
 
 Dependency injection is not satisfied --you get a null point error.
 
-## BEAN lifecycle
+## BEAN lifecycle :>
 
 <img width="1650" alt="Screenshot 2019-06-02 at 8 34 33 AM" src="https://user-images.githubusercontent.com/8262606/58756288-344f5d00-8513-11e9-8e87-ec21dc6d38b5.png">
 <img width="1670" alt="Screenshot 2019-06-02 at 8 34 44 AM" src="https://user-images.githubusercontent.com/8262606/58756289-344f5d00-8513-11e9-804f-176b24017255.png">
@@ -50,3 +50,8 @@ DisposableBean.destroy()
 ### Bean Post Processors(called during the beans are getting processed)
 PostProcessorBeforeInitialization
 PostProcessorAfterInitialization
+
+
+### 14 aware interfaces
+
+<img width="1661" alt="Screenshot 2019-06-02 at 9 09 45 AM" src="https://user-images.githubusercontent.com/8262606/58756444-526a8c80-8516-11e9-8467-6a9e23dfdf8e.png">
