@@ -34,7 +34,5 @@ Dependency injection is not satisfied --you get a null point error.
 
 ## BEAN lifecycle
 
-https://github.com/sridharkidambi/springboot5/blob/master/Screenshot%202019-06-02%20at%208.34.33%20AM.png
-
-
-https://github.com/sridharkidambi/springboot5/blob/master/Screenshot%202019-06-02%20at%208.34.44%20AM.png
+<img width="1650" alt="Screenshot 2019-06-02 at 8 34 33 AM" src="https://user-images.githubusercontent.com/8262606/58756288-344f5d00-8513-11e9-8e87-ec21dc6d38b5.png">
+<img width="1670" alt="Screenshot 2019-06-02 at 8 34 44 AM" src="https://user-images.githubusercontent.com/8262606/58756289-344f5d00-8513-11e9-804f-176b24017255.png">
