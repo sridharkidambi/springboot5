@@ -37,16 +37,16 @@ Dependency injection is not satisfied --you get a null point error.
 <img width="1650" alt="Screenshot 2019-06-02 at 8 34 33 AM" src="https://user-images.githubusercontent.com/8262606/58756288-344f5d00-8513-11e9-8e87-ec21dc6d38b5.png">
 <img width="1670" alt="Screenshot 2019-06-02 at 8 34 44 AM" src="https://user-images.githubusercontent.com/8262606/58756289-344f5d00-8513-11e9-804f-176b24017255.png">
 
-#CallBack Interfaces
+### CallBack Interfaces
 Spring bean has 2 interfaces which u can implement for callback interfaces
 
 Initializingbean.afterpropertiesSet()
 DisposableBean.destroy()
 
-#Annotations(called after bean has been constructed but before being returned to the requesting object)
+### Annotations(called after bean has been constructed but before being returned to the requesting object)
 @PostConstruct
 @PreDestroy
 
-#Bean Post Processors(called during the beans are getting processed)
+### Bean Post Processors(called during the beans are getting processed)
 PostProcessorBeforeInitialization
 PostProcessorAfterInitialization
