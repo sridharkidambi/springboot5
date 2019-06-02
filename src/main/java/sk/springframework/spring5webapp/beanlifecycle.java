@@ -6,6 +6,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Component
 public class beanlifecycle implements InitializingBean, DisposableBean, BeanNameAware, BeanFactoryAware, ApplicationContextAware {
     @Override
@@ -36,5 +39,27 @@ public class beanlifecycle implements InitializingBean, DisposableBean, BeanName
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         System.out.println("******************");
         System.out.println("I am setApplicationContext   "+applicationContext);
+    }
+
+    @PostConstruct
+    private void checkPostConstruct(){
+        System.out.println("******************");
+        System.out.println("I am checkPostConstruct   ");
+    }
+
+    @PreDestroy
+    private void checkPreDestroy(){
+        System.out.println("******************");
+        System.out.println("I am checkPreDestroy   ");
+    }
+
+    public void preInitializeProcessor(){
+        System.out.println("******************");
+        System.out.println("I am preInitializeProcessor   ");
+    }
+
+    public void postInitializeProcessor(){
+        System.out.println("******************");
+        System.out.println("I am postInitializeProcessor   ");
     }
 }
