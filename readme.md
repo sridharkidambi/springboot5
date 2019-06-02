@@ -16,7 +16,7 @@ GRAILS ---groovy wrapper over spring framework
 ApplicationListener<ContextRefreshedEvent> :used to initialize the component
 https://www.baeldung.com/spring-context-events
 
-
+## SOLID Priciples
 SOLID principle (OOPS)
 
 SIngle responsibilty principle.
@@ -32,7 +32,9 @@ Spring frameworks IOC container.
 
 Dependency injection is not satisfied --you get a null point error.
 
+## BEAN lifecycle
+
+https://github.com/sridharkidambi/springboot5/blob/master/Screenshot%202019-06-02%20at%208.34.33%20AM.png
 
 
-
-
+https://github.com/sridharkidambi/springboot5/blob/master/Screenshot%202019-06-02%20at%208.34.44%20AM.png
