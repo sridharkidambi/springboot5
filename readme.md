@@ -72,3 +72,26 @@ Defentions:
 <img width="1555" alt="Screenshot 2019-06-04 at 10 58 52 AM" src="https://user-images.githubusercontent.com/8262606/58853413-d5771880-86b7-11e9-8e16-164958a4484a.png">
 
 Spring Bean creation suing the @configuration attributes
+
+
+@SpringbootApplication encapuslates the following annotations
+@Componentscan @EnableAutoConfiguration @COnfiguration
+
+
+
+SPRING BEAN Scope
+
+Singleton
+proptype(new everytime)
+Request: one per httprequest- valid in contect aware spring aplicationcontext
+Session: A single instace per http session - valid in contect aware spring aplicationcontext
+
+Global session
+Application lifecycle  of  servletcontext
+Webscoket
+Cusotm scope
+
+cannot override singleton and prototype scopes
+
+
+
