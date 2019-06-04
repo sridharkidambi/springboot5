@@ -55,3 +55,12 @@ PostProcessorAfterInitialization
 ### 14 aware interfaces
 
 <img width="1661" alt="Screenshot 2019-06-02 at 9 09 45 AM" src="https://user-images.githubusercontent.com/8262606/58756444-526a8c80-8516-11e9-8467-6a9e23dfdf8e.png">
+
+### Spring Framework Sterotypes:
+
+available are: @component @repository @Service @RestController @Controller
+
+<img width="1499" alt="Screenshot 2019-06-04 at 10 48 20 AM" src="https://user-images.githubusercontent.com/8262606/58853018-6c42d580-86b6-11e9-9163-1b9a7454ed0f.png">
+
+<img width="1555" alt="Screenshot 2019-06-04 at 10 58 52 AM" src="https://user-images.githubusercontent.com/8262606/58853413-d5771880-86b7-11e9-8e16-164958a4484a.png">
+
