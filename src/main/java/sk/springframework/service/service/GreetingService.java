@@ -1,4 +1,4 @@
-package sk.springframework.spring5webapp.service;
+package sk.springframework.service.service;
 
 public interface GreetingService {
     void orintme();

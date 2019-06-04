@@ -1,4 +1,4 @@
-package sk.springframework.spring5webapp.service;
+package sk.springframework.service.service;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

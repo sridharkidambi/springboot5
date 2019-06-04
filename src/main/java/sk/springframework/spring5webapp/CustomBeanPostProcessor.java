@@ -2,9 +2,8 @@ package sk.springframework.spring5webapp;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
-import sk.springframework.spring5webapp.service.child2GreetingService;
+import sk.springframework.service.service.child2GreetingService;
 
 @Component
 public class CustomBeanPostProcessor implements BeanPostProcessor {
