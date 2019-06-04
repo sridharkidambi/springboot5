@@ -11,9 +11,10 @@ import sk.springframework.spring5webapp.controller.booksController;
 public class Spring5webappApplication {
 
 	public static void main(String[] args) {
+		System.out.println("I am  main");
 	ApplicationContext ctx=  SpringApplication.run(Spring5webappApplication.class, args);
-		booksController booksController=  (booksController)ctx.getBean("booksController");
-		booksController.getBooks(null);
+//		booksController booksController=  (booksController)ctx.getBean("booksController");
+//		booksController.getBooks(null);
 	}
 
 }
