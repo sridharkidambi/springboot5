@@ -66,6 +66,7 @@ available are: @component @repository @Service @RestController @Controller
 Defentions:
 
 @repository provides more exception handling undelying the architecture
+
 @component scan is used scan components outside the springboot package.
 
 <img width="1555" alt="Screenshot 2019-06-04 at 10 58 52 AM" src="https://user-images.githubusercontent.com/8262606/58853413-d5771880-86b7-11e9-8e16-164958a4484a.png">
