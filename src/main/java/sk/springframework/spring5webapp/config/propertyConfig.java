@@ -27,7 +27,7 @@ public class propertyConfig {
     @Bean
     public String getFmName(){
 
-        System.out.println("familyName is "+ env.getProperty("family.name"));
+        System.out.println("familyName is "+ env.getProperty("USER"));
         return familyName;
     }
 
