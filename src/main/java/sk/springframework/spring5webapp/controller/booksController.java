@@ -25,7 +25,7 @@ public class booksController {
     @Autowired
     private  GreetingService customGreetingService;
 
-    @RequestMapping("/books")
+    @RequestMapping("/skbooks")
     public  String getBooks(Model model){
         greetingService.orintme();
         child2GreetingService.orintme();
