@@ -94,4 +94,11 @@ Cusotm scope
 cannot override singleton and prototype scopes
 
 
+### Properties:
+
+Profile based properties have more precedence than propertiesfile.
+
+### HTTP interceptor
+add the plugin axix tcpmon on a port different from tomcat port and configure the traffic through tcpmon
+
 
