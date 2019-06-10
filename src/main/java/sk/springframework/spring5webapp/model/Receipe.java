@@ -20,6 +20,17 @@ public class Receipe {
     @OneToOne(cascade = CascadeType.ALL)
     private Notes notes;
 
+    @Enumerated(value = EnumType.STRING)
+    private difficulty difficultyLevel;
+
+    public difficulty getDifficultyLevel() {
+        return difficultyLevel;
+    }
+
+    public void setDifficultyLevel(difficulty difficultyLevel) {
+        this.difficultyLevel = difficultyLevel;
+    }
+
     public List<Ingredients> getIngredients() {
         return ingredients;
     }
