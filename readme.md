@@ -98,7 +98,58 @@ cannot override singleton and prototype scopes
 
 Profile based properties have more precedence than propertiesfile.
 
-### HTTP interceptor
+### HTTP interceptor & live reload
 add the plugin axix tcpmon on a port different from tomcat port and configure the traffic through tcpmon
 
+live reload for browser refresh
+
+## JPA hibernate:
+
+    ### Releationship Types:
+        one to one
+        one to many
+        Many to One
+        Many to Many
+        
+    ### Directional
+        uni directional
+        Bidirectional(preferred)
+        
+    ### Fetch Types:
+    
+        Lazy Fetch type
+        Eagar Fetch Type
+        
+        One to many (lazy default)
+        Many to One ( Lazy fetch type)
+        Many to one and one to one (eagar type default)
+     
+    ###  Cascade Types:( changes are effect to the releated components)
+         Persist
+         Merge
+         Refresh
+         Remove 
+         Detach
+         
+     ### Embedded Types (categorizing a set of fields for multipurpose needs). for ex shipping and billing address.
+     have address as embeddable
+    
+    ### Inheritance
+    
+        Mapped Superclass
+        Single table
+        Joined table
+        Table per class
+        
+    @PrePersist and @PreUpdate (audit timestamps via JPA lifecycle callbacks
+    @CreationTimestamp and @UpdateTimeStamp
+    
+    
+   ### JDL studio (enitity mapped tool)
+     
+         
+         
+    
+    
+    
 
