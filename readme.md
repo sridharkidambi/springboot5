@@ -146,6 +146,11 @@ live reload for browser refresh
     
     
    ### JDL studio (enitity mapped tool)
+   
+   
+   ### Sample JPA program-Design:
+   
+   <img width="1650" alt="Screenshot 2019-06-10 at 7 13 32 AM" src="https://user-images.githubusercontent.com/8262606/59167572-74d05b80-8b4f-11e9-889a-f45a79cdf500.png">
      
          
          
