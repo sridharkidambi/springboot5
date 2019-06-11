@@ -5,6 +5,7 @@ import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Receipe {
@@ -13,6 +14,12 @@ public class Receipe {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long Id;
     private String receipeName;
+
+    @ManyToMany
+    @JoinTable(name="receipe_catogory",
+            joinColumns= @JoinColumn( name="receipe_id"),
+            inverseJoinColumns = @JoinColumn(name="catogory_id") )
+    private Set<category> categories;
 
     @OneToMany(cascade = CascadeType.ALL ,  mappedBy="receipe")
     private List<Ingredients> ingredients;
@@ -61,5 +68,13 @@ public class Receipe {
 
     public void setNotes(Notes notes) {
         this.notes = notes;
+    }
+
+    public Set<category> getCategories() {
+        return categories;
+    }
+
+    public void setCategories(Set<category> categories) {
+        this.categories = categories;
     }
 }
