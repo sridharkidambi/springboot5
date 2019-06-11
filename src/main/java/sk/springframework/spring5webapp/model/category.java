@@ -1,6 +1,7 @@
 package sk.springframework.spring5webapp.model;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -12,7 +13,7 @@ public class category {
     private String desc;
 
     @ManyToMany(mappedBy = "categories")
-    private Set<Receipe> receipes;
+    private Set<Receipe> receipes=new HashSet<Receipe>();
 
     public Long getId() {
         return Id;

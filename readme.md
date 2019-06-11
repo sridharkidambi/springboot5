@@ -135,7 +135,7 @@ live reload for browser refresh
      have address as embeddable
     
         ### Inheritance
-    
+    https://www.baeldung.com/hibernate-inheritance
         Mapped Superclass
         Single table
         Joined table
@@ -163,5 +163,10 @@ live reload for browser refresh
      1.Spring Datasource initializer will load the schema.sql and data.sql from the root path.
      2. or spring boot will load from schema-${platofrm}.sql and data-${platofrm}.sql files. 
      and set the value for  spring.datasource.platform must be set
-    
+     
+  ### how to make the bidirectional reletionship simple:
+  addining into the the properties to update the reverse direction while updatung the aprent.
+  
 
+@notempty
+used to specify the validation constraint.
