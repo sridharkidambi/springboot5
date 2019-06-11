@@ -121,7 +121,7 @@ live reload for browser refresh
         Eagar Fetch Type
         
         One to many (lazy default)
-        Many to One ( Lazy fetch type)
+        Many to many ( Lazy fetch type)
         Many to one and one to one (eagar type default)
      
     ###  Cascade Types:( changes are effect to the releated components)
