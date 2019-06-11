@@ -134,7 +134,7 @@ live reload for browser refresh
      ### Embedded Types (categorizing a set of fields for multipurpose needs). for ex shipping and billing address.
      have address as embeddable
     
-    ### Inheritance
+        ### Inheritance
     
         Mapped Superclass
         Single table
@@ -155,6 +155,13 @@ live reload for browser refresh
          
          
     
-    
+   ### DDL Manupulation using hibernate
+    hibernate provides the following options:none,validate,update,create,create-drop otpions for DDL 
+     intialize with Hibernate (using SQL files).
+     
+     Spring ways of creating :
+     1.Spring Datasource initializer will load the schema.sql and data.sql from the root path.
+     2. or spring boot will load from schema-${platofrm}.sql and data-${platofrm}.sql files. 
+     and set the value for  spring.datasource.platform must be set
     
 
