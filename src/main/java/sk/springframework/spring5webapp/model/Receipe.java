@@ -8,11 +8,9 @@ import java.util.List;
 import java.util.Set;
 
 @Entity
-public class Receipe {
+public class Receipe extends baseentity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long Id;
+
     private String receipeName;
 
     @ManyToMany
@@ -44,14 +42,6 @@ public class Receipe {
 
     public void setIngredients(List<Ingredients> ingredients) {
         this.ingredients = ingredients;
-    }
-
-    public long getId() {
-        return Id;
-    }
-
-    public void setId(long id) {
-        Id = id;
     }
 
     public String getReceipeName() {
