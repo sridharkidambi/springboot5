@@ -11,6 +11,7 @@ import java.util.Set;
 public class Receipe extends baseentity {
 
 
+    @Column(name = "receipe_names")
     private String receipeName;
 
     @ManyToMany
