@@ -145,17 +145,17 @@ live reload for browser refresh
     @CreationTimestamp and @UpdateTimeStamp
     
     
-   ### JDL studio (enitity mapped tool)
+   ###### JDL studio (enitity mapped tool)
    
    
-   ### Sample JPA program-Design:
+   ###### Sample JPA program-Design:
    
    <img width="1650" alt="Screenshot 2019-06-10 at 7 13 32 AM" src="https://user-images.githubusercontent.com/8262606/59167572-74d05b80-8b4f-11e9-889a-f45a79cdf500.png">
      
          
          
     
-   ### DDL Manupulation using hibernate
+   ###### DDL Manupulation using hibernate
     hibernate provides the following options:none,validate,update,create,create-drop otpions for DDL 
      intialize with Hibernate (using SQL files).
      
@@ -168,5 +168,31 @@ live reload for browser refresh
   addining into the the properties to update the reverse direction while updatung the aprent.
   
 
-@notempty
+#####@notempty
 used to specify the validation constraint.
+
+### JPA repository :
+repository interface bottom of the spring data repository
+CrudRepository (extends Repository)
+PagingAndSortingRepository
+Jparepository extends PagingAndSortingRepository
+
+
+### Lombok
+
+
+##### @Data
+will make @getter @ setter @tostring @EqualsandHashcode @Requiredargsconstructor automatically
+
+###### @value
+makes it private and final
+
+###### @builder
+###### @SneakyThrows 
+    throw checked exceptions withoutdevlaring
+###### @Syncronized 
+    A safer implementation of java syncronized.
+###### @Getter(lazy=true)
+
+
+
