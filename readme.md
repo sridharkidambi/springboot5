@@ -193,6 +193,36 @@ makes it private and final
 ###### @Syncronized 
     A safer implementation of java syncronized.
 ###### @Getter(lazy=true)
+###### @EqualsAndHashCode(exclude={"Receipes"})
+
+
+####### ArgumentCaptor: 
+    Use it to capture argument values for further assertions.
+    ArgumentCaptor<Person> argument = ArgumentCaptor.forClass(Person.class);
+      verify(mock).doSomething(argument.capture());
+      assertEquals("John", argument.getValue().getName());
+      
+      
+      @mock
+       mocks a  class based on its instance type no side effects.have validation possible.
+       
+       @spy 
+       makes the spy class a wrapper arounf the original class.
+       
+       @Fake 
+       a smalled implementation of a actual one.
+       
+       @Stub
+       making specific actions possible for a class.
+       
+       @Rule
+       to execute some precondition and post condition.
+       
+       
+    Springcontext for test is reloaded once and every test runs with the preloaded context.
+    
+      
+    
 
 
 
