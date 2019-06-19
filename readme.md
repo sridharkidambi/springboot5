@@ -221,8 +221,16 @@ makes it private and final
        
     Springcontext for test is reloaded once and every test runs with the preloaded context.
     
-      
+
+######  Docker:
     
+Use link to connect the docker images for running containers.
+
+docker logs -f imageid (-f follow)
+
+docker image inspect mongo -shows the layers of images with their SHA hashcodes.
+
+docker images -q  --no-trunc
 
 
 
