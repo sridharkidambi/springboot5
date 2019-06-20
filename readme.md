@@ -232,5 +232,19 @@ docker image inspect mongo -shows the layers of images with their SHA hashcodes.
 
 docker images -q  --no-trunc
 
+###### Docker Clean commands:
+
+<img width="1234" alt="Screenshot 2019-06-20 at 11 45 06 AM" src="https://user-images.githubusercontent.com/8262606/59825461-b502bb80-9351-11e9-865a-ed57261224dc.png">
+<img width="1232" alt="Screenshot 2019-06-20 at 11 45 21 AM" src="https://user-images.githubusercontent.com/8262606/59825462-b502bb80-9351-11e9-9c61-b45206c54e22.png">
+<img width="1267" alt="Screenshot 2019-06-20 at 11 47 17 AM" src="https://user-images.githubusercontent.com/8262606/59825464-b502bb80-9351-11e9-8a44-2d33a8be6247.png">
 
 
+####docker cheatsheet:
+https://springframework.guru/docker-cheat-sheet-for-spring-devlopers/
+
+
+
+
+##### JAVA 8:
+
+https://www.tutorialspoint.com/java8/java8_optional_class.htm
