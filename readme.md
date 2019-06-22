@@ -164,6 +164,8 @@ live reload for browser refresh
      2. or spring boot will load from schema-${platofrm}.sql and data-${platofrm}.sql files. 
      and set the value for  spring.datasource.platform must be set
      
+<img width="714" alt="Screenshot 2019-06-22 at 9 47 30 AM" src="https://user-images.githubusercontent.com/8262606/59959342-e060e400-94d2-11e9-9218-1376e2b3287b.png">
+     
   ### how to make the bidirectional reletionship simple:
   addining into the the properties to update the reverse direction while updatung the aprent.
   
@@ -239,11 +241,26 @@ docker images -q  --no-trunc
 <img width="1267" alt="Screenshot 2019-06-20 at 11 47 17 AM" src="https://user-images.githubusercontent.com/8262606/59825464-b502bb80-9351-11e9-8a44-2d33a8be6247.png">
 
 
+####### 
+<img width="714" alt="Screenshot 2019-06-22 at 9 47 30 AM" src="https://user-images.githubusercontent.com/8262606/59959424-7ea17980-94d4-11e9-9d1a-b1a9d65a0734.png">
+<img width="426" alt="Screenshot 2019-06-22 at 9 57 12 AM" src="https://user-images.githubusercontent.com/8262606/59959425-7ea17980-94d4-11e9-9c64-33438e2bdab3.png">
+
 ####docker cheatsheet:
 https://springframework.guru/docker-cheat-sheet-for-spring-devlopers/
 
 
+###### Micro Service:
+############ Server Side Load Balancing 
 
+eureka server or consul
+
+############ client Side Load Balancing 
+Ribbon 
+
+######### Reactive Architecture 
+<img width="1503" alt="Screenshot 2019-06-22 at 2 23 12 PM" src="https://user-images.githubusercontent.com/8262606/59962577-f7b8c500-9504-11e9-9902-91d224ebc063.png">
+<img width="1659" alt="Screenshot 2019-06-22 at 2 24 31 PM" src="https://user-images.githubusercontent.com/8262606/59962578-f7b8c500-9504-11e9-9d2a-321f2e5ee4aa.png">
+<img width="1179" alt="Screenshot 2019-06-22 at 3 22 37 PM" src="https://user-images.githubusercontent.com/8262606/59962579-f8515b80-9504-11e9-808a-690405ac56b2.png">
 
 ##### JAVA 8:
 
